@@ -1,0 +1,137 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background-color: #0a0f1c;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+.container {
+    width: 100%;
+    max-width: 800px;
+}
+
+.todo-box {
+    background-color: rgba(255, 255, 255, 0.05);
+    border-radius: 15px;
+    padding: 30px;
+    box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+    backdrop-filter: blur(4px);
+    border: 1px solid rgba(255, 255, 255, 0.18);
+}
+
+h1 {
+    color: white;
+    text-align: center;
+    margin-bottom: 30px;
+    font-size: 2.5rem;
+}
+
+.input-container {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+
+.todo-input, input[type="text"], input[type="date"] {
+    background-color: #1a1f2e;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    color: #ffffff;
+    padding: 12px 15px;
+    border-radius: 8px;
+    font-size: 16px;
+    width: 100%;
+}
+
+.date-input {
+    flex: 1;
+    padding: 12px;
+    border-radius: 8px;
+    border: none;
+    background-color: #1a1f2e;
+    color: white;
+}
+
+.add-btn {
+    padding: 0 20px;
+    border-radius: 8px;
+    border: none;
+    background-color: #8b8ef3;
+    color: white;
+    font-size: 20px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.add-btn:hover {
+    background-color: #7a7dd9;
+}
+
+.button-container {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+
+.filter-btn, .delete-btn {
+    padding: 10px 20px;
+    border-radius: 8px;
+    border: none;
+    background-color: #8b8ef3;
+    color: white;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.filter-btn:hover, .delete-btn:hover {
+    background-color: #7a7dd9;
+}
+
+.table-container {
+    overflow-x: auto;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    color: white;
+}
+
+th {
+    text-align: left;
+    padding: 15px;
+    color: #8b8ef3;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+td {
+    padding: 15px;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.no-task {
+    text-align: center;
+    color: #666;
+}
+
+.status-btn, .delete-task-btn {
+    padding: 5px 10px;
+    border-radius: 4px;
+    border: none;
+    background-color: #8b8ef3;
+    color: white;
+    cursor: pointer;
+    margin-right: 5px;
+}
+
+.delete-task-btn {
+    background-color: transparent;
+}
