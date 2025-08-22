@@ -64,7 +64,7 @@ h1 {
     padding: 0 20px;
     border-radius: 8px;
     border: none;
-    background-color: #8b8ef3;
+    background-color: #8bf394;
     color: white;
     font-size: 20px;
     cursor: pointer;
@@ -85,7 +85,7 @@ h1 {
     padding: 10px 20px;
     border-radius: 8px;
     border: none;
-    background-color: #8b8ef3;
+    background-color: #0bb1ce;
     color: white;
     cursor: pointer;
     transition: background-color 0.3s;
@@ -122,16 +122,23 @@ td {
     color: #666;
 }
 
-.status-btn, .delete-task-btn {
+.status-btn{
     padding: 5px 10px;
     border-radius: 4px;
     border: none;
-    background-color: #8b8ef3;
+    background-color: #062bb3;
     color: white;
     cursor: pointer;
     margin-right: 5px;
 }
 
-.delete-task-btn {
-    background-color: transparent;
+
+.delete-btn {
+    padding: 5px 10px;
+    border-radius: 4px;
+    border: none;
+    background-color: #e23838;
+    color: white;
+    cursor: pointer;
+    margin-right: 5px;
 }
